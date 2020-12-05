@@ -1,0 +1,22 @@
+{
+  "name": "algolia-instantsearch-react-ecommerce",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-instantsearch": "5.3.2",
+    "react-instantsearch-dom": "5.3.2",
+    "react-scripts": "1.1.5",
+    "rheostat": "2.2.0"
+  },
+  "devDependencies": {
+    "prop-types": "15.6.2"
+  }
+}
