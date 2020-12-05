@@ -1,5 +1,5 @@
 {
-  "name": "algolia-instantsearch-react-ecommerce",
+  "name": "mall",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -18,5 +18,7 @@
   },
   "devDependencies": {
     "prop-types": "15.6.2"
-  }
+  },
+  "keywords": [],
+  "description": "This is a digital mall"
 }
