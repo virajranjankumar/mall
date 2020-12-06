@@ -16,10 +16,13 @@ class App extends Component {
   render() {
     return (
       <InstantSearch
-        appId="B1G2GM9NG0"
-        apiKey="aadef574be1f9252bb48d4ea09b5cfe5"
-        indexName="demo_ecommerce"
+        appId="45MY93DYFP"
+        apiKey="c55fff8b800dae71574904455c1f3ef1"
+        indexName="dev_mall"
       >
+        <header>
+          <h1>Dubai Mall</h1>
+        </header>
         <main className="search-container">
           <Configure
             hitsPerPage={5}
@@ -49,9 +52,9 @@ class App extends Component {
               </Panel>
             </div>
             <div id="brands">
-              <Panel header="Brands">
+              <Panel header="Origins">
                 <Facet
-                  attribute="brand"
+                  attribute="origin"
                   searchable={true}
                   translations={{ placeholder: "Search for other..." }}
                 />
@@ -59,7 +62,7 @@ class App extends Component {
             </div>
             <div id="price">
               <Panel header="Price">
-                <RangeSlider attribute="price" />
+                <RangeSlider attribute="currentPrice" />
               </Panel>
             </div>
           </div>

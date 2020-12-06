@@ -475,3 +475,7 @@ footer {
 #pagination:empty:before {
   content: "Uncomment the pagination widget to add pagination.";
 }
+
+header {
+  margin-bottom: 1em;
+}
